@@ -33,8 +33,12 @@ class Profile extends React.Component {
                 location={this.state.profiles.location}
                 image={this.state.profiles.avatar_url}
               />
-              <h2>Followers:</h2>
-              <Followers />
+              {/* <Row>
+                <h4>Followers:</h4>
+              </Row>
+              <Row>
+                <Followers />
+              </Row> */}
         </Row>
       </Container>
     )
